@@ -14,8 +14,19 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            
+            Button("Start live activity", action: _startLiveActivity).padding(10.0)
+            Button("End live activity", action: _endLiveActivity).padding(10.0)
         }
         .padding()
+    }
+    
+    func _startLiveActivity() {
+        
+    }
+    
+    func _endLiveActivity() {
+        
     }
 }
 
